@@ -1,0 +1,15 @@
+html,body{height:100%;margin:0;background:#000;color:#fff;font-family:Inter,Arial,sans-serif}
+canvas{display:block}
+#overlay{position:fixed;left:12px;top:12px;z-index:30}
+#overlay h1{margin:0;font-size:18px}
+#notice{position:fixed;left:50%;top:8px;transform:translateX(-50%);color:#fff;padding:6px 10px;border-radius:6px;background:rgba(0,0,0,0.4);z-index:30}
+#miniMap{position:fixed;left:12px;top:80px;width:160px;height:160px;border-radius:8px;overflow:hidden;border:2px solid rgba(255,255,255,0.06);z-index:30;background:#0b1b17}
+#controls{position:fixed;left:12px;bottom:12px;color:#fff;z-index:30}
+.btn{background:rgba(255,255,255,0.06);padding:8px 10px;border-radius:6px;margin:4px;display:inline-block;border:1px solid rgba(255,255,255,0.06)}
+#hud{position:fixed;right:12px;bottom:12px;color:#fff;z-index:30;text-align:right}
+#help{position:fixed;left:12px;top:260px;color:#fff;z-index:30;font-size:13px}
+#debug{position:fixed;right:12px;top:12px;color:#fff;z-index:30;font-size:12px;opacity:.9}
+
+
+/* make canvas fill window behind UI */
+body > canvas { position: fixed; left:0; top:0; width:100%; height:100%; z-index:0 }

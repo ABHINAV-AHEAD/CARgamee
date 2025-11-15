@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Open World Car Game — Pro</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="overlay">
+<h1>Open World Car Game — Pro</h1>
+<div id="playerInfo">Player: Abhinav</div>
+</div>
+<div id="notice">Tip: Use W/A/S/D or Arrow keys. Press C to toggle camera.</div>
+<div id="miniMap"></div>
+<div id="controls"></div>
+<div id="help">
+<div><b>Controls:</b></div>
+<div>W / ↑ : Accelerate</div>
+<div>S / ↓ : Brake / Reverse</div>
+<div>A / ← : Steer left</div>
+<div>D / → : Steer right</div>
+<div>Space: Handbrake</div>
+<div>C: Toggle camera</div>
+</div>
+<div id="hud">
+<div id="speed">Speed: 0 km/h</div>
+<div id="rpm">RPM: 0</div>
+<div id="position">Position: 0,0</div>
+</div>
+<div id="debug"></div>
+
+
+<!-- Three.js UMD (CDN) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r152/three.min.js"></script>
+
+
+<!-- main game code -->
+<script src="main.js"></script>
+</body>
+</html>
